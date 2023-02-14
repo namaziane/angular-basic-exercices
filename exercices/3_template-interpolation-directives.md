@@ -37,7 +37,7 @@ trainings = [
 ]
 ```
 
-## Utiliser ngSwitch améliorer la lisibilité de code
+## Utiliser ngSwitch pour améliorer la lisibilité de code
 
 **Instructions** : Certains des formations affichés dans le composant
 trainings-list ne sont que en ligne , d’autres sont en physique,
@@ -53,6 +53,13 @@ ont les deux.
     {nom:'AWS', date: '15/04/2023', heure: '18h'}
   ]
 ```
+
+## Changer l’apparence de nom des formation en fonction de son format en utilisant ngClass ou ngStyle
+
+**Instructions** : Utiliser la directive ngClass/ngStyle pour ajouter
+des classes/styles de manière conditionnelle au nom de la formation en
+fonction de la valeur de training.format Changer la coleur de texte ou
+de fond.
 
 ## Créer une directive pour changer l’apparence d’un element HTML
 
