@@ -1,26 +1,36 @@
-  - [Introduction](#./exercices/1_introduction.md)
+\#\# Exercise
 
-  - [Comprendre les
-    composants](./exercices/2_understanding_components.md)
+***Instructions***: Creer un composant permattant d’afficher une
+formation sur la base de template ci-dessous :
 
-  - [Travailler avec les templates, interpolation et
-    directives](#./exercices/3_template-interpolation-directives.md)
+``` js
+//HTML
 
-  - [Comprendre le binding](#./exercices/4_databiding.md)
+<div>
+  <div>
+    Name :
+  </div>
+  <div>
+    Start Date:
+  </div>
+  <div>
+    End Date:
+  </div>
+  <div>
+    Time:
+  </div>
+  <div>
+    Address:
+  </div>
+</div>
 
-  - [Créer et utiliser les pipes](#./exercices/5_pipes.md)
+//DONNEES
 
-  - [Plus de concepts sur les
-    composants](#./exercices/5_more_concepts_about_components.md)
-
-  - [Travailler avec les formulaires](#./exercices/forms.md)
-
-  - [Utiliser des services et l’injection de
-    dépendance](#./exercices/6_services.md)
-
-  - [Appeler le serveur backend via
-    HTTP](#./exercices/7_calling_backend.md)
-
-  - [Navigation et routage](#./exercices/8_routing.md)
-
-  - [Travailler avec angular CLI](#./exercices/9_deploying.md)
+{
+    name: 'React',
+    startDate: '13/02/2023',
+    endDate: '22/02/2023',
+    time: '6am',
+    location: {address: 'Rue de abdelkrim alkhatabi', city: 'la defense', country: 'France'}
+}
+```
