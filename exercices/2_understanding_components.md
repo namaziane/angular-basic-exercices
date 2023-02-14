@@ -1,7 +1,7 @@
   - [Introduction](#./exercices/1_introduction.md)
 
   - [Comprendre les
-    composants](#./exercices/2_understanding_components.md)
+    composants](./exercices/2_understanding_components.md)
 
   - [Travailler avec les templates, interpolation et
     directives](#./exercices/3_template-interpolation-directives.md)
