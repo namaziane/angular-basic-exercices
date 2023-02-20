@@ -1,29 +1,20 @@
-# Exercices:
 
-## Cacher/Afficher des élémennts en utilisant la propriété binding et l'event binding
+# Exercices
+
+# Communication avec les composants enfants en utilisant _@Input_
+
+**_Instructions_**: créer un composant 'training-details' qui permet d'afficher les infos d'une formation.
+et integrer le dans le listing via le decorateur @Input
+
+
+# Communiquer avec les composants parents à l'aide de @Output
+
 **_Instructions_**:
-* Cacher ou Afficher toute les farmation  au clique sur une button (Cacher tout /Afficher tout)
-* Cacher ou Afficher une formation au clique sur le details d'une formation (ajouter une button pour chaque formation avec le label Cacher/Afficher ou 'Expand/Collapse'
 
-``` js
-  trainings = [
-    {
-      nom: 'Formation Angular Débutant', date: '15/02/2023', heure: '18h', url:
-        "https:team.com", format: "enligne", hidden: false
-    },
-    {
-      nom: 'Formation Angular Avancé', date: '15/06/2023', heure: '18h', lieu: {
-        adresse:
-          'adresse-1', ville: 'ville-1', pays: 'pays-1'
-      }, format: "sursite", hidden: false
-    },
-    {nom: 'AWS', date: '15/04/2023', heure: '18h', hidden: false}
-  ];
+Creer un composant parent (parent.component.ts) et un composant enfant (child.component.ts).
+Le composant enfant a _un bouton_ "Cliquez sur moi" et _une propriété_ de compteur qui est constamment mis à jour par un minuteur.
+Ajoutez une propriété de sortie au composant enfant et reliez-la au parent afin que la propriété currentCounter soit mise à jour avec la valeur actuelle
+de la propriété counter de l'enfant lorsque le bouton "Cliquez sur moi" est appuyé sur le composant enfant.
+Vous verrez un message de félicitations lorsque vous y arrivez.
 
-```
- 
 
-## Filtrer les elements de la liste en utilisant le binding bidirectionnel
-
-**_Instructions_**: Filrer la liste des formations en saisissant une partie de nom de formation dans un input
-en utilisant ngModel
